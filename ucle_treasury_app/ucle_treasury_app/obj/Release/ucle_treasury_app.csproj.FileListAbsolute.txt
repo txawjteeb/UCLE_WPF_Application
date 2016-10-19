@@ -1,0 +1,15 @@
+C:\Users\txawjteeb\Documents\Visual Studio 2015\Projects\ucle_treasury_app\ucle_treasury_app\bin\Release\ucle_treasury_app.exe.config
+C:\Users\txawjteeb\Documents\Visual Studio 2015\Projects\ucle_treasury_app\ucle_treasury_app\bin\Release\ucle_treasury_app.exe
+C:\Users\txawjteeb\Documents\Visual Studio 2015\Projects\ucle_treasury_app\ucle_treasury_app\bin\Release\ucle_treasury_app.pdb
+C:\Users\txawjteeb\Documents\Visual Studio 2015\Projects\ucle_treasury_app\ucle_treasury_app\obj\Release\Email_SMS.g.cs
+C:\Users\txawjteeb\Documents\Visual Studio 2015\Projects\ucle_treasury_app\ucle_treasury_app\obj\Release\MainWindow.g.cs
+C:\Users\txawjteeb\Documents\Visual Studio 2015\Projects\ucle_treasury_app\ucle_treasury_app\obj\Release\App.g.cs
+C:\Users\txawjteeb\Documents\Visual Studio 2015\Projects\ucle_treasury_app\ucle_treasury_app\obj\Release\ucle_treasury_app_MarkupCompile.cache
+C:\Users\txawjteeb\Documents\Visual Studio 2015\Projects\ucle_treasury_app\ucle_treasury_app\obj\Release\ucle_treasury_app_MarkupCompile.lref
+C:\Users\txawjteeb\Documents\Visual Studio 2015\Projects\ucle_treasury_app\ucle_treasury_app\obj\Release\Email_SMS.baml
+C:\Users\txawjteeb\Documents\Visual Studio 2015\Projects\ucle_treasury_app\ucle_treasury_app\obj\Release\MainWindow.baml
+C:\Users\txawjteeb\Documents\Visual Studio 2015\Projects\ucle_treasury_app\ucle_treasury_app\obj\Release\ucle_treasury_app.g.resources
+C:\Users\txawjteeb\Documents\Visual Studio 2015\Projects\ucle_treasury_app\ucle_treasury_app\obj\Release\ucle_treasury_app.Properties.Resources.resources
+C:\Users\txawjteeb\Documents\Visual Studio 2015\Projects\ucle_treasury_app\ucle_treasury_app\obj\Release\ucle_treasury_app.csproj.GenerateResource.Cache
+C:\Users\txawjteeb\Documents\Visual Studio 2015\Projects\ucle_treasury_app\ucle_treasury_app\obj\Release\ucle_treasury_app.exe
+C:\Users\txawjteeb\Documents\Visual Studio 2015\Projects\ucle_treasury_app\ucle_treasury_app\obj\Release\ucle_treasury_app.pdb
