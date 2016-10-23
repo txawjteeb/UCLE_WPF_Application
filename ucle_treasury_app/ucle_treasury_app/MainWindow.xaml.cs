@@ -23,6 +23,7 @@ namespace ucle_treasury_app
     /// </summary>
     public partial class MainWindow : Window
     {
+        public string database_conn_string = @"Data Source=" + System.Environment.CurrentDirectory + @"\resources\database\dbUCLE_Treasury.db;Version=3;";
         public bool hmongEnglishChange = false;
         public MainWindow()
         {
@@ -150,20 +151,11 @@ namespace ucle_treasury_app
             var newUser = new AddUser();
             newUser.ShowDialog();
 
-            //if (newUser.boolClosed == false)
-            //{
-            //    return;
-            //}
-
             try
             {
-
-                //txtTo = email.tbEmail.Text;
-                //txtSubject = email.tbSubject.Text;
-                //txtContent = email.tbMessage.Text;
                 newUser.Close();
             }
-            catch
+            catch (Exception ex)
             {
 
             }

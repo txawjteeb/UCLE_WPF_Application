@@ -6,8 +6,19 @@
         xmlns:local="clr-namespace:ucle_treasury_app"
         mc:Ignorable="d"
         Title="Add New User" Height="407.205" Width="569.793" ResizeMode="NoResize">
+    <Window.Resources>
+        <Storyboard x:Key="DefaultFadeOut" Completed="DefaultImg_Completed">
+            <DoubleAnimation From="1" To="0" Storyboard.TargetName="imgUserPhoto"  Storyboard.TargetProperty="(Image.Opacity)" Duration="0:0:0.5"/>
+        </Storyboard>
+        <Storyboard x:Key="DefaultFadeIn" Name="DefaultFadeIn">
+            <DoubleAnimation From="0" To="1" Storyboard.TargetName ="imgUserPhoto" Storyboard.TargetProperty="(Image.Opacity)" Duration="0:0:0.5"/>
+        </Storyboard>
+        <Storyboard x:Key="FadeOut" Completed="Image_Completed">
+            <DoubleAnimation From="1" To="0" Storyboard.TargetName="imgUserPhoto"  Storyboard.TargetProperty="(Image.Opacity)" Duration="0:0:0.5"/>
+        </Storyboard>
+    </Window.Resources>
     <Grid>
-        <Grid HorizontalAlignment="Left" Height="379" VerticalAlignment="Top" Width="565" Margin="0,0,-0.333,0">
+        <Grid HorizontalAlignment="Left" Height="379" VerticalAlignment="Top" Width="565" Margin="-1,0,0,-0.5">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="101*"></ColumnDefinition>
                 <ColumnDefinition Width="177*"></ColumnDefinition>
@@ -20,16 +31,32 @@
                 <RowDefinition Height="46*"></RowDefinition>
                 <RowDefinition Height="34*"></RowDefinition>
             </Grid.RowDefinitions>
-            <Label x:Name="lblFirstName" Content="First Name:" HorizontalContentAlignment="Right" Margin="21,47,190.333,0" VerticalAlignment="Top" Height="26" Grid.ColumnSpan="2"/>
-            <TextBox x:Name="tbFirstName" HorizontalAlignment="Left" Height="26" Margin="0.333,47,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="150" MaxLength="30" Grid.Column="1"/>
-            <Label x:Name="lblLastName" Content="Last Name:" HorizontalContentAlignment="Right" Margin="22,73,190.333,0" VerticalAlignment="Top" Height="26" Grid.ColumnSpan="2" Grid.RowSpan="2"/>
-            <TextBox x:Name="tbLastName" HorizontalAlignment="Left" Height="26" Margin="0.333,73,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="150" MaxLength="30" Grid.Column="1" Grid.RowSpan="2"/>
-            <Image Margin="31.667,10,31.333,0" Name="imgUserPhoto" Grid.Column="2" Grid.RowSpan="2" HorizontalAlignment="Center" Width="203" Source="resources/images/ucle.jpg" VerticalAlignment="Top" Height="179" />
-            <Button Height="23" HorizontalAlignment="Center" Margin="0,0,0,42.667" Name="btnUpload" VerticalAlignment="Bottom" Width="76" Grid.Column="2" Click="btnUpload_Click" Grid.Row="1" Grid.RowSpan="2">_Load</Button>
-            <Button x:Name="btnSave" Content="Save Image" Grid.Column="2" HorizontalAlignment="Left" Margin="0,19.5,0,0" Grid.Row="2" VerticalAlignment="Top" Width="75" Click="btnSave_Click" Height="23"/>
-            <Button x:Name="btnPreload" Content="Pre-Load" Grid.Column="1" HorizontalAlignment="Left" Margin="96.5,19.5,0,0" Grid.Row="2" VerticalAlignment="Top" Width="74" Height="23" Click="btnPreload_Click"/>
+            <Label x:Name="lblTitle" Content="Add New User" HorizontalContentAlignment="Center" FontSize="24" FontWeight="Bold" HorizontalAlignment="Left" Margin="21,5,0,0" VerticalAlignment="Top" Width="290" Grid.ColumnSpan="3"/>
+            <Label x:Name="lblFirstName" Content="First Name:" HorizontalContentAlignment="Right" Margin="17,47,22.5,0" VerticalAlignment="Top" Height="26"/>
+            <TextBox x:Name="tbFirstName" VerticalContentAlignment="Center" HorizontalAlignment="Left" Height="26" Margin="87,47,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="186" MaxLength="30" Grid.ColumnSpan="2"/>
+            <Label x:Name="lblLastName" Content="Last Name:" HorizontalContentAlignment="Right" Margin="15,0,22.5,0" VerticalAlignment="Top" Height="26" Grid.Row="1"/>
+            <TextBox x:Name="tbLastName" VerticalContentAlignment="Center" HorizontalAlignment="Left" Height="26" Margin="87,0,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="186" MaxLength="30" Grid.ColumnSpan="2" Grid.Row="1"/>
+            <Label x:Name="lblTopPhone" Content="(ie. 5591234567)" FontStyle="Italic" FontWeight="Bold" FontSize="10" HorizontalAlignment="Left" Margin="91,31,0,0" Grid.Row="1" VerticalAlignment="Top" Grid.ColumnSpan="2" Width="182" Height="23"/>
+            <Label x:Name="lblPhone" Content="Phone:" HorizontalAlignment="Left" Margin="40,54,0,0" Grid.Row="1" VerticalAlignment="Top"/>
+            <TextBox x:Name="tbPhone" VerticalContentAlignment="Center" MaxLength="10" HorizontalAlignment="Left" Height="26" Margin="87,54,0,0" Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Top" Width="186" Grid.ColumnSpan="2" PreviewTextInput="numbersOnly_PreviewTextInput"/>
+            <Label x:Name="lblCarrier" Content="Carrier:" HorizontalAlignment="Left" Margin="38,80,0,0" Grid.Row="1" VerticalAlignment="Top"/>
+            <ComboBox x:Name="cboCarrier" HorizontalAlignment="Left" Margin="87,80,0,0" Grid.Row="1" VerticalAlignment="Top" Width="186" Height="26" Grid.ColumnSpan="2"/>
+            <Label x:Name="lblEmail" Content="Email:" HorizontalContentAlignment="Right" HorizontalAlignment="Left" Margin="46,0.5,0,0" Grid.Row="2" VerticalAlignment="Top"/>
+            <TextBox x:Name="tbEmail" VerticalContentAlignment="Center" HorizontalAlignment="Left" Height="26" Margin="87,0.5,0,0" Grid.Row="2" MaxLength="30" TextWrapping="Wrap" VerticalAlignment="Top" Width="186" Grid.ColumnSpan="2"/>
+            <Label x:Name="lblAddress" Content="Address:" HorizontalAlignment="Left" Margin="32,45.5,0,0" Grid.Row="2" VerticalAlignment="Top"/>
+            <TextBox x:Name="tbAddress" VerticalContentAlignment="Center" Grid.ColumnSpan="3" HorizontalAlignment="Left" MaxLength="44" Height="27" Margin="87,44.5,0,0" Grid.Row="2" TextWrapping="Wrap" VerticalAlignment="Top" Width="265"/>
+            <Label x:Name="lblCity" Content="City:" HorizontalContentAlignment="Right" HorizontalAlignment="Left" Margin="31,76.5,0,0" Grid.Row="2" VerticalAlignment="Top" Width="56" Grid.RowSpan="2"/>
+            <TextBox x:Name="tbCity" VerticalContentAlignment="Center" HorizontalAlignment="Left" MaxLength="21" Height="26" Margin="87,76.5,0,0" Grid.Row="2" TextWrapping="Wrap" VerticalAlignment="Top" Width="134" Grid.ColumnSpan="2" Grid.RowSpan="2"/>
+            <Label x:Name="lblState" Content="State:" HorizontalContentAlignment="Right" HorizontalAlignment="Left" Margin="125.5,76.5,0,0" Grid.Row="2" VerticalAlignment="Top" Grid.Column="1" Grid.RowSpan="2"/>
+            <ComboBox x:Name="cboState" HorizontalAlignment="Left" Margin="164.5,76.5,0,0" Grid.Row="2" VerticalAlignment="Top" Width="79" Height="26" Grid.Column="1" Grid.RowSpan="2" Grid.ColumnSpan="2"/>
+            <Label x:Name="lblZipCode" Content="Zip Code:" HorizontalContentAlignment="Right" HorizontalAlignment="Left" Margin="26,23.5,0,0" Grid.Row="3" VerticalAlignment="Top"/>
+            <TextBox x:Name="tbZipCode" PreviewTextInput="numbersOnly_PreviewTextInput" VerticalContentAlignment="Center" HorizontalAlignment="Left" Height="26" Margin="87,23.5,0,0" MaxLength="5" Grid.Row="3" TextWrapping="Wrap" VerticalAlignment="Top" Width="111" Grid.ColumnSpan="2"/>
+            <Border BorderThickness="2" BorderBrush="Gray" Margin="31.667,10,31.333,0" Grid.Column="2" Grid.RowSpan="2" HorizontalAlignment="Stretch" Width="203" VerticalAlignment="Center" Height="179">
+                <Image Margin="-2" Name="imgUserPhoto" Grid.Column="2" Grid.RowSpan="2" HorizontalAlignment="Stretch" Width="203" VerticalAlignment="Center" Height="175" />
+            </Border>
+            <Button x:Name="btnUpload" Content="Load Image" Height="22" HorizontalAlignment="Center" Margin="32,0,145,52.5" VerticalAlignment="Bottom" Width="89" Grid.Column="2" Click="btnUpload_Click" Grid.Row="2" />
+            <Button x:Name="btnRemove" Content="Remove Image" Grid.Column="2" HorizontalAlignment="Left" Margin="137,10.5,0,0" Grid.Row="2" VerticalAlignment="Top" Width="98" Height="22" Click="btnRemove_Click"/>
+            <Button x:Name="btnSave" Content="Create New User" Grid.Column="2" HorizontalAlignment="Left" Margin="123,59.5,0,0" Grid.Row="3" VerticalAlignment="Top" Width="112" Click="btnSave_Click" Height="24" Grid.RowSpan="2"/>
         </Grid>
-
-
     </Grid>
 </Window>

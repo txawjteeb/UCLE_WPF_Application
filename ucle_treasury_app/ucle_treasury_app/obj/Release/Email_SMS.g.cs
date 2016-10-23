@@ -108,7 +108,7 @@ namespace ucle_treasury_app {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/ucle_treasury_app;component/email_sms.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/UCLE Local Treasury Application;component/email_sms.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\Email_SMS.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

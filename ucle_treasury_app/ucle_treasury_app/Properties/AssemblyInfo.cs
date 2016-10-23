@@ -7,13 +7,13 @@ using System.Windows;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("ucle_treasury_app")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyTitle("UCLE Treasury Application")]
+[assembly: AssemblyDescription("Used to save and compile Tithing and Finances")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
+[assembly: AssemblyCompany("United Christians Liberty Evangelical Church")]
 [assembly: AssemblyProduct("ucle_treasury_app")]
 [assembly: AssemblyCopyright("Copyright ©  2016")]
-[assembly: AssemblyTrademark("")]
+[assembly: AssemblyTrademark("United Christians Liberty Evangelical")]
 [assembly: AssemblyCulture("")]
 
 // Setting ComVisible to false makes the types in this assembly not visible 
