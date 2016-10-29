@@ -1,0 +1,35 @@
+c:\users\txawjteeb\documents\visual studio 2015\Projects\ucle_treasury_app\ucle_treasury_app\obj\Debug\MainWindow.g.cs
+c:\users\txawjteeb\documents\visual studio 2015\Projects\ucle_treasury_app\ucle_treasury_app\obj\Debug\App.g.cs
+c:\users\txawjteeb\documents\visual studio 2015\Projects\ucle_treasury_app\ucle_treasury_app\obj\Debug\MainWindow.baml
+c:\users\txawjteeb\documents\visual studio 2015\Projects\ucle_treasury_app\ucle_treasury_app\obj\Debug\ucle_treasury_app.Properties.Resources.resources
+c:\users\txawjteeb\documents\visual studio 2015\Projects\ucle_treasury_app\ucle_treasury_app\obj\Debug\ucle_treasury_app.csproj.GenerateResource.Cache
+C:\Users\txawjteeb\Documents\Visual Studio 2015\Projects\ucle_treasury_app\ucle_treasury_app\obj\Debug\Email_SMS.g.cs
+C:\Users\txawjteeb\Documents\Visual Studio 2015\Projects\ucle_treasury_app\ucle_treasury_app\obj\Debug\Email_SMS.baml
+C:\Users\txawjteeb\documents\visual studio 2015\Projects\ucle_treasury_app\ucle_treasury_app\obj\Debug\AddUser.g.cs
+C:\Users\txawjteeb\documents\visual studio 2015\Projects\ucle_treasury_app\ucle_treasury_app\obj\Debug\AddUser.baml
+C:\Users\txawjteeb\documents\visual studio 2015\Projects\ucle_treasury_app\ucle_treasury_app\bin\Debug\EntityFramework.dll
+C:\Users\txawjteeb\documents\visual studio 2015\Projects\ucle_treasury_app\ucle_treasury_app\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\txawjteeb\documents\visual studio 2015\Projects\ucle_treasury_app\ucle_treasury_app\bin\Debug\System.Data.SQLite.dll
+C:\Users\txawjteeb\documents\visual studio 2015\Projects\ucle_treasury_app\ucle_treasury_app\bin\Debug\System.Data.SQLite.EF6.dll
+C:\Users\txawjteeb\documents\visual studio 2015\Projects\ucle_treasury_app\ucle_treasury_app\bin\Debug\System.Data.SQLite.Linq.dll
+C:\Users\txawjteeb\documents\visual studio 2015\Projects\ucle_treasury_app\ucle_treasury_app\bin\Debug\EntityFramework.xml
+C:\Users\txawjteeb\documents\visual studio 2015\Projects\ucle_treasury_app\ucle_treasury_app\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\txawjteeb\documents\visual studio 2015\Projects\ucle_treasury_app\ucle_treasury_app\bin\Debug\System.Data.SQLite.xml
+C:\Users\txawjteeb\documents\visual studio 2015\Projects\ucle_treasury_app\ucle_treasury_app\bin\Debug\resources\images\ucle.jpg
+C:\Users\txawjteeb\documents\visual studio 2015\Projects\ucle_treasury_app\ucle_treasury_app\bin\Debug\resources\images\no_image.png
+C:\Users\txawjteeb\documents\visual studio 2015\Projects\ucle_treasury_app\ucle_treasury_app\bin\Debug\resources\fonts\MONG_NEW.TTF
+C:\Users\txawjteeb\documents\visual studio 2015\Projects\ucle_treasury_app\ucle_treasury_app\bin\Debug\resources\database\dbUCLE_Treasury.db
+C:\Users\txawjteeb\documents\visual studio 2015\Projects\ucle_treasury_app\ucle_treasury_app\obj\Debug\ucle_treasury_app.csprojResolveAssemblyReference.cache
+C:\Users\txawjteeb\documents\visual studio 2015\Projects\ucle_treasury_app\ucle_treasury_app\bin\Debug\UCLE Local Treasury Application.exe.config
+C:\Users\txawjteeb\documents\visual studio 2015\Projects\ucle_treasury_app\ucle_treasury_app\bin\Debug\UCLE Local Treasury Application.exe
+C:\Users\txawjteeb\documents\visual studio 2015\Projects\ucle_treasury_app\ucle_treasury_app\bin\Debug\UCLE Local Treasury Application.pdb
+C:\Users\txawjteeb\documents\visual studio 2015\Projects\ucle_treasury_app\ucle_treasury_app\obj\Debug\UCLE Local Treasury Application_Content.g.cs
+C:\Users\txawjteeb\documents\visual studio 2015\Projects\ucle_treasury_app\ucle_treasury_app\obj\Debug\UCLE Local Treasury Application_MarkupCompile.cache
+C:\Users\txawjteeb\documents\visual studio 2015\Projects\ucle_treasury_app\ucle_treasury_app\obj\Debug\UCLE Local Treasury Application_MarkupCompile.lref
+C:\Users\txawjteeb\documents\visual studio 2015\Projects\ucle_treasury_app\ucle_treasury_app\obj\Debug\UCLE Local Treasury Application.g.resources
+C:\Users\txawjteeb\documents\visual studio 2015\Projects\ucle_treasury_app\ucle_treasury_app\obj\Debug\UCLE Local Treasury Application.exe
+C:\Users\txawjteeb\documents\visual studio 2015\Projects\ucle_treasury_app\ucle_treasury_app\obj\Debug\UCLE Local Treasury Application.pdb
+C:\Users\txawjteeb\documents\visual studio 2015\Projects\ucle_treasury_app\ucle_treasury_app\obj\Debug\EditUser.g.cs
+C:\Users\txawjteeb\documents\visual studio 2015\Projects\ucle_treasury_app\ucle_treasury_app\obj\Debug\EditUser.baml
+C:\Users\txawjteeb\documents\visual studio 2015\Projects\ucle_treasury_app\ucle_treasury_app\obj\Debug\ViewUsers.g.cs
+C:\Users\txawjteeb\documents\visual studio 2015\Projects\ucle_treasury_app\ucle_treasury_app\obj\Debug\ViewUsers.baml

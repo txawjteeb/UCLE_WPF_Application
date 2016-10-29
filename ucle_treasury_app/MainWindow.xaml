@@ -1,0 +1,45 @@
+﻿<Window x:Class="ucle_treasury_app.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ucle_treasury_app"
+        mc:Ignorable="d"
+        Title="UCLE Treasury" Height="436.889" Width="611.222" ResizeMode="CanResize"  Icon="resources/images/ucle.jpg" WindowStartupLocation="CenterOwner">
+    <Grid RenderTransformOrigin="0.5,0.5">
+        <Grid.Background>
+            <ImageBrush ImageSource="resources/images/ucle_splash_screen.png" Stretch="Uniform" Opacity="0.05">
+                <ImageBrush.RelativeTransform>
+                    <TransformGroup>
+                        <ScaleTransform ScaleY="1" ScaleX="1"/>
+                        <SkewTransform AngleY="0" AngleX="0"/>
+                        <RotateTransform Angle="0"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </ImageBrush.RelativeTransform>
+            </ImageBrush>
+        </Grid.Background>
+        <Button x:Name="btnEmail" Content="Email Test" HorizontalAlignment="Left" Margin="57,261,0,0" VerticalAlignment="Top" Width="75" Click="btnEmail_Click" FontSize="14"/>
+        <StackPanel>
+            <ToolBar Margin="0,0,-0.333,0">
+                <Menu>
+                    <MenuItem x:Name="tlbFile" Header="File" FontSize="14">
+                        <MenuItem Header="About" x:Name="tlbAbout"/>
+                        <Separator />
+                        <MenuItem Header="Exit" x:Name="tlbExiting" Click="tlbExit_Click" />
+                    </MenuItem>
+                    <MenuItem x:Name="tlbAdmin" Header="Admin" FontSize="14">
+                        <MenuItem Header="Add New User" x:Name="tlbNewUser" Click="tlbNewUser_Click"/>
+                        <MenuItem Header="View &amp; Edit User Information" x:Name="tlbEditUser" Click="tlbEditUser_Click"/>
+                    </MenuItem>
+                    <MenuItem x:Name="tlbFinance" Header="Finance" FontSize="14">
+                        <MenuItem Header="Tithing" x:Name="tlbTithing" />
+                        <MenuItem Header="Offering Donation" x:Name="tlbOffering" />
+                    </MenuItem>
+                    <Button x:Name="btnLanguage" Content="Hmong" Click="btnLanguageChange_Click" FontSize="14"></Button>
+                </Menu>
+            </ToolBar>
+        </StackPanel>
+
+    </Grid>
+</Window>

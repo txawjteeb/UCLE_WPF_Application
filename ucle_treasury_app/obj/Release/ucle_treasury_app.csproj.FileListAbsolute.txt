@@ -1,0 +1,34 @@
+C:\Users\txawjteeb\Documents\Visual Studio 2015\Projects\ucle_treasury_app\ucle_treasury_app\obj\Release\Email_SMS.g.cs
+C:\Users\txawjteeb\Documents\Visual Studio 2015\Projects\ucle_treasury_app\ucle_treasury_app\obj\Release\MainWindow.g.cs
+C:\Users\txawjteeb\Documents\Visual Studio 2015\Projects\ucle_treasury_app\ucle_treasury_app\obj\Release\App.g.cs
+C:\Users\txawjteeb\Documents\Visual Studio 2015\Projects\ucle_treasury_app\ucle_treasury_app\obj\Release\Email_SMS.baml
+C:\Users\txawjteeb\Documents\Visual Studio 2015\Projects\ucle_treasury_app\ucle_treasury_app\obj\Release\MainWindow.baml
+C:\Users\txawjteeb\Documents\Visual Studio 2015\Projects\ucle_treasury_app\ucle_treasury_app\obj\Release\ucle_treasury_app.Properties.Resources.resources
+C:\Users\txawjteeb\Documents\Visual Studio 2015\Projects\ucle_treasury_app\ucle_treasury_app\obj\Release\ucle_treasury_app.csproj.GenerateResource.Cache
+C:\Users\txawjteeb\documents\visual studio 2015\Projects\ucle_treasury_app\ucle_treasury_app\bin\Release\EntityFramework.dll
+C:\Users\txawjteeb\documents\visual studio 2015\Projects\ucle_treasury_app\ucle_treasury_app\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\txawjteeb\documents\visual studio 2015\Projects\ucle_treasury_app\ucle_treasury_app\bin\Release\System.Data.SQLite.dll
+C:\Users\txawjteeb\documents\visual studio 2015\Projects\ucle_treasury_app\ucle_treasury_app\bin\Release\System.Data.SQLite.EF6.dll
+C:\Users\txawjteeb\documents\visual studio 2015\Projects\ucle_treasury_app\ucle_treasury_app\bin\Release\System.Data.SQLite.Linq.dll
+C:\Users\txawjteeb\documents\visual studio 2015\Projects\ucle_treasury_app\ucle_treasury_app\bin\Release\EntityFramework.xml
+C:\Users\txawjteeb\documents\visual studio 2015\Projects\ucle_treasury_app\ucle_treasury_app\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\txawjteeb\documents\visual studio 2015\Projects\ucle_treasury_app\ucle_treasury_app\bin\Release\System.Data.SQLite.xml
+C:\Users\txawjteeb\documents\visual studio 2015\Projects\ucle_treasury_app\ucle_treasury_app\obj\Release\AddUser.g.cs
+C:\Users\txawjteeb\documents\visual studio 2015\Projects\ucle_treasury_app\ucle_treasury_app\obj\Release\AddUser.baml
+C:\Users\txawjteeb\documents\visual studio 2015\Projects\ucle_treasury_app\ucle_treasury_app\bin\Release\resources\fonts\MONG_NEW.TTF
+C:\Users\txawjteeb\documents\visual studio 2015\Projects\ucle_treasury_app\ucle_treasury_app\bin\Release\resources\images\ucle.jpg
+C:\Users\txawjteeb\documents\visual studio 2015\Projects\ucle_treasury_app\ucle_treasury_app\bin\Release\resources\images\no_image.png
+C:\Users\txawjteeb\documents\visual studio 2015\Projects\ucle_treasury_app\ucle_treasury_app\bin\Release\resources\database\dbUCLE_Treasury.db
+C:\Users\txawjteeb\documents\visual studio 2015\Projects\ucle_treasury_app\ucle_treasury_app\bin\Release\UCLE Local Treasury Application.exe.config
+C:\Users\txawjteeb\documents\visual studio 2015\Projects\ucle_treasury_app\ucle_treasury_app\bin\Release\UCLE Local Treasury Application.exe
+C:\Users\txawjteeb\documents\visual studio 2015\Projects\ucle_treasury_app\ucle_treasury_app\bin\Release\UCLE Local Treasury Application.pdb
+C:\Users\txawjteeb\documents\visual studio 2015\Projects\ucle_treasury_app\ucle_treasury_app\obj\Release\UCLE Local Treasury Application_Content.g.cs
+C:\Users\txawjteeb\documents\visual studio 2015\Projects\ucle_treasury_app\ucle_treasury_app\obj\Release\UCLE Local Treasury Application_MarkupCompile.cache
+C:\Users\txawjteeb\documents\visual studio 2015\Projects\ucle_treasury_app\ucle_treasury_app\obj\Release\UCLE Local Treasury Application_MarkupCompile.lref
+C:\Users\txawjteeb\documents\visual studio 2015\Projects\ucle_treasury_app\ucle_treasury_app\obj\Release\UCLE Local Treasury Application.g.resources
+C:\Users\txawjteeb\documents\visual studio 2015\Projects\ucle_treasury_app\ucle_treasury_app\obj\Release\UCLE Local Treasury Application.exe
+C:\Users\txawjteeb\documents\visual studio 2015\Projects\ucle_treasury_app\ucle_treasury_app\obj\Release\UCLE Local Treasury Application.pdb
+C:\Users\txawjteeb\documents\visual studio 2015\Projects\ucle_treasury_app\ucle_treasury_app\obj\Release\EditUser.g.cs
+C:\Users\txawjteeb\documents\visual studio 2015\Projects\ucle_treasury_app\ucle_treasury_app\obj\Release\ViewUsers.g.cs
+C:\Users\txawjteeb\documents\visual studio 2015\Projects\ucle_treasury_app\ucle_treasury_app\obj\Release\EditUser.baml
+C:\Users\txawjteeb\documents\visual studio 2015\Projects\ucle_treasury_app\ucle_treasury_app\obj\Release\ViewUsers.baml

@@ -1,0 +1,72 @@
+﻿<Window x:Class="ucle_treasury_app.ViewUsers"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ucle_treasury_app"
+        mc:Ignorable="d"
+        Title="Edit User Information" Height="498.331" Width="930.449" ResizeMode="NoResize" >
+    <Grid>
+        <DockPanel LastChildFill="True">
+            <ToolBar DockPanel.Dock="Top">
+                <Menu>
+                    <MenuItem Header="View User">
+                        <MenuItem Header="Just filling this menu bar for now"></MenuItem>
+                    </MenuItem>
+                </Menu>
+            </ToolBar>
+            <StatusBar HorizontalAlignment="Stretch" Height="25" VerticalAlignment="Top" DockPanel.Dock="Bottom">
+                <StatusBarItem>
+                    <TextBlock x:Name="lblStatusPosition" Text="Ready..."/>
+                </StatusBarItem>
+            </StatusBar>
+            <DataGrid x:Name="dgUsers" ColumnWidth="Auto" AutoGenerateColumns="False" CanUserAddRows="False" IsReadOnly="True" Margin="0,0,0,-1" DockPanel.Dock="Left" Width="341" SelectionChanged="dgUsers_SelectionChanged">
+                <DataGrid.Columns>
+                    <DataGridTextColumn Header="Name" Binding="{Binding strName}" MaxWidth="163" Width="163">
+                        <DataGridTextColumn.HeaderStyle>
+                            <Style TargetType="DataGridColumnHeader">
+                                <Setter Property="HorizontalContentAlignment" Value="Center" />
+                            </Style>
+                        </DataGridTextColumn.HeaderStyle>
+                    </DataGridTextColumn>
+                    <!--<DataGridTextColumn Header="Last Name" Binding="{Binding strLastName}" MaxWidth="111" Width="111">
+                        <DataGridTextColumn.HeaderStyle>
+                            <Style TargetType="DataGridColumnHeader">
+                                <Setter Property="HorizontalContentAlignment" Value="Center" />
+                            </Style>
+                        </DataGridTextColumn.HeaderStyle>
+                    </DataGridTextColumn>-->
+                    <DataGridTextColumn Header="Last Updated" Binding="{Binding dtAdded}" MaxWidth="139" Width="139">
+                        <DataGridTextColumn.HeaderStyle>
+                            <Style TargetType="DataGridColumnHeader">
+                                <Setter Property="HorizontalContentAlignment" Value="Center" />
+                            </Style>
+                        </DataGridTextColumn.HeaderStyle>
+                        <DataGridTextColumn.ElementStyle>
+                            <Style TargetType="TextBlock">
+                                <Setter Property="HorizontalAlignment" Value="Center" />
+                            </Style>
+                        </DataGridTextColumn.ElementStyle>
+                    </DataGridTextColumn>
+                    <DataGridTemplateColumn Header="Edit">
+                        <DataGridTemplateColumn.CellTemplate>
+                            <DataTemplate >
+                                <Button CommandParameter="{Binding lngID}" Click="btnEdit_Clicked">Edit</Button>
+                            </DataTemplate>
+                        </DataGridTemplateColumn.CellTemplate>
+                    </DataGridTemplateColumn>
+                </DataGrid.Columns>
+            </DataGrid>
+            <Border BorderThickness="2" BorderBrush="Gray" Margin="31,28,31.333,114" HorizontalAlignment="Left" Width="203" VerticalAlignment="Top" Height="180">
+                <Image x:Name="imgUser" HorizontalAlignment="Center" Source="resources\images\no_image.png" Width="198" VerticalAlignment="Center" Height="175"/>
+            </Border>
+            <Label x:Name="lblFirstName" Content="lblFirstName" FontSize="22" FontWeight="Bold" VerticalAlignment="Top" Margin="-20,28,0,0" Width="318" Height="40" />
+            <Label x:Name="lblLastName" Content="lblLastName" FontSize="22" FontWeight="Bold" VerticalAlignment="Top" Margin="-318,57,0,0" Width="318" Height="40" />
+            <Label x:Name="lblPhoneNumber" Content="lblPhoneNumber" FontSize="14" VerticalAlignment="Top" Margin="-318,126,0,0" Width="317" Height="30" />
+            <Label x:Name="lblEmail" Content="lblEmail" FontSize="14" VerticalAlignment="Top" Margin="-318,154,0,0" Width="317" Height="30" />
+            <Label x:Name="lblAddress" Content="lblAddress" FontSize="18" FontStyle="Italic" VerticalAlignment="Top" Margin="-665,230,0,0" Width="410" Height="35" />
+            <Label x:Name="lblCityStateZip" Content="lblCityStateZip" FontSize="18" FontStyle="Italic" VerticalAlignment="Top" Margin="-665,256,0,0" Width="410" Height="35" />
+            <Label x:Name="lblTithing" Content="lblTithing" FontSize="22" HorizontalContentAlignment="Center" VerticalAlignment="Top" Margin="-565,340,0,0" Width="270" Height="40" />
+        </DockPanel>
+    </Grid>
+</Window>
